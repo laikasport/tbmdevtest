@@ -1,0 +1,85 @@
+.frm-view-all-applications-button-wrapper {
+	grid-column: 6/span 3;
+	padding-top: 20px;
+}
+
+.frm-updated-at-timestamp {
+	font-size: 11px;
+	color: var(--medium-grey);
+}
+
+#frm_custom_applications_grid .frm-application-item-count {
+	margin-bottom: 5px;
+}
+
+.frm-application-card hr ~ div {
+	align-self: center;
+}
+
+#frm_custom_applications_grid .frm-application-card span a {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: calc( 100% - 22px );
+	display: inline-block;
+	color: #3c434a;
+}
+
+#frm_custom_applications_grid .frm-application-card.frm-highlight-card {
+	cursor: pointer;
+	filter: drop-shadow(0px 12px 24px rgba(72, 78, 84, 0.2));
+}
+
+#frm_custom_applications_grid .frm-application-card.frm-highlight-card span a {
+	color: var(--primary-color);
+}
+
+.frm-application-modal-label ~ .frm-application-modal-label {
+	margin-top: 20px;
+}
+
+ul.frm-application-item-list {
+	margin-top: 0;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+#frm_no_applications_placeholder {
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto 50px;
+}
+
+#frm_no_applications_placeholder .frm-new-application-button {
+	margin-top: 20px;
+}
+
+#frm_view_application_modal:not(.frm-has-template-meta) .frm-button-primary.button-primary:not(.frm-get-it-now-button) {
+	display: none;
+}
+
+.frm-delete-application-trigger {
+	position: absolute;
+	right: 10px;
+}
+
+.frm-delete-application-trigger svg {
+	color: rgba(40, 47, 54, 0.85) !important;
+	pointer-events: none;
+}
+
+.frm-application-templates-nav h2.frm-h2 {
+	position: relative;
+}
+
+.frm-application-templates-nav h2.frm-h2 a {
+	font-size: 13px;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+.frm-application-card:not(.frm-locked-application-template) .frm-button-secondary {
+	/* Removing left padding for Add button + icon */
+	padding-left: 0;
+}

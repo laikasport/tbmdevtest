@@ -1,0 +1,79 @@
+.frm-type-tag {
+	background-color: var(--sidebar-hover);
+	padding: 3px 7px;
+	border-radius: 4px;
+	margin-right: 10px;
+	display: inline-block;
+	min-width: 35px;
+	text-align: center;
+	color: rgba(60,67,74,0.85);
+}
+
+.frm-application-summary-item {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	line-height: 25px;
+	width: 100%;
+}
+
+.frm-application-summary-item + .frm-application-summary-item {
+	margin-top: 15px;
+}
+
+.frm-application-summary-item .frm-type-tag {
+	line-height: 15px;
+}
+
+.frm-application-summary-item .frmsvg {
+	position: relative;
+	top: 3px;
+}
+
+.frm-application-item-option {
+	padding: 4px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.frm-application-item-option + .frm-application-item-option {
+	margin-top: 5px;
+}
+
+.frm-application-item-option.frm-selected-item-option {
+	background: rgba(188, 224, 253, 0.23);
+}
+
+.frm-application-item-option input {
+	position: relative;
+	top: 2px;
+}
+
+.frm-generate-page-option {
+	margin-left: auto;
+	font-size: 11px;
+	box-shadow: none !important;
+}
+
+.frm-application-item-option label {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.frm-grey-tag {
+	background: rgba(188, 196, 206, 0.42);
+	padding: 0 5px 0 3px;
+	border-radius: 4px;
+	color: rgba(40, 47, 54, 0.65);
+	font-weight: 400;
+	display: inline-block;
+}
+
+.frm-grey-tag a,
+.frm-grey-tag a:hover {
+	color: rgba(40, 47, 54, 0.65);
+}
+
+.column-application .frm-grey-tag {
+	margin: 0 10px 10px 0;
+}

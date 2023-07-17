@@ -1,0 +1,7 @@
+[21-Jan-2023 19:07:25 UTC] wp_auto_login: trying to login user_id==1 loginusername=ryan@kieffer.com to admin_url=http://dev.tbmowners.org/wp-admin/
+[24-Jan-2023 00:14:34 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[08-Feb-2023 00:42:53 UTC] Cron reschedule event error for hook: woocommerce_geoip_updater, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"fifteendays","args":[],"interval":1296000}
+[02-Apr-2023 08:41:39 UTC] Astra Addon: Batch Process Started!
+[02-Apr-2023 08:41:39 UTC] Astra Addon: Queuing 4.1.0 - astra_addon_background_updater_4_1_0
+[18-May-2023 19:38:00 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `thx_options` WHERE `option_name` = '_transient_mepr_all_models_for_class_meprreminder' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, MeprRemindersCtrl->schedule_reminders, MeprCptModel::all, delete_transient, delete_option
+[21-May-2023 08:42:13 UTC] Astra Addon: DB version updated!

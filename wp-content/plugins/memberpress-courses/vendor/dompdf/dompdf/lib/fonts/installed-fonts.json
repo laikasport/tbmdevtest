@@ -1,0 +1,27 @@
+{
+    "tangerine": {
+        "italic": "\/var\/www\/html\/wordpress\/wp-content\/plugins\/memberpress-courses\/vendor\/dompdf\/dompdf\/lib\/fonts\/tangerine_italic_a157e4801314fc7efa409919cb5bc0a4",
+        "normal": "tangerine_normal_5cab60c3e6058d250fcf34fa6734abcd"
+    },
+    "give you glory": {
+        "normal": "give_you_glory_normal_e1aa361d1e44adc04e89424102e27f5b"
+    },
+    "wallpoet": {
+        "normal": "wallpoet_normal_7e0dcb4e37ef67c9b2dfe60f994476f1"
+    },
+    "love ya like a sister": {
+        "normal": "love_ya_like_a_sister_normal_52c46978f0c6b87f52812e6a9912bfe4"
+    },
+    "berkshire swash": {
+        "normal": "berkshire_swash_normal_6e13920d513fbc987afe6f7fc95a8deb"
+    },
+    "great vibes": {
+        "normal": "great_vibes_normal_e1c08ec3d3c522d05d7b43bffaed6295"
+    },
+    "crimson text": {
+        "normal": "crimson_text_normal_bdc3f0e1ea6bf8b050d4c52f2999b1b3"
+    },
+    "poppins": {
+        "normal": "poppins_normal_442dffd12abdf0df26c14405d3f49bfa"
+    }
+}

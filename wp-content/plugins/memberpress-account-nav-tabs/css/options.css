@@ -1,0 +1,60 @@
+.is-hidden {
+  display: none;
+}
+
+#mepr_account_nav_tabs_items {
+  padding-left: 20px;
+}
+
+#mepr_account_nav_tabs_list .mepr_nav_tab_item {
+  margin-bottom: 5px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.mepr_nav_tab_item_delete {
+  float: right;
+  marging-top: -10px;
+}
+
+.mepr_nav_tab_form > .mp-row:first-child {
+  display: flex;
+}
+
+.mepr_nav_tab_form > .mp-row {
+  align-items: baseline;
+}
+
+.mepr_nav_tab_title {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.mepr_nav_tab_url_wrapper {
+  padding-left: 20px;
+}
+
+.mepr_nav_tab_content_wrapper {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.mepr_account_nav_tabs_tab_content {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.mepr_nav_tab_textarea {
+  width: 95%;
+  height: 200px;
+}
+
+.mepr_new_tab_hidden {
+  display: none;
+}
+
+#mepr-add-tab {
+  display: flex;
+  align-items: center;
+}

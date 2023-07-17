@@ -1,0 +1,17 @@
+.color-field .wp-picker-container, .color-size-field .wp-picker-container {
+  vertical-align: top;
+}
+
+.color-size-field input[type=number] {
+  vertical-align: top;
+  width: 6em;
+}
+.color-size-field .description {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+.color-size-field .description img {
+  vertical-align: middle;
+  margin: 3px 6px 3px 3px;
+}
